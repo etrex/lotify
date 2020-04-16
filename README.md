@@ -54,15 +54,21 @@ response = lotify.status(token)
 Send a text message.
 
 ```
-response = lotify.send(token, {message: "QQ"})
+response = lotify.send(token, message: "Hello lotify.")
 ```
 
 Send a text, image and sticker message at same time.
 
 ```
-png = "https://www.kamigo.tw/assets/kamigo-c3b10dff4cdb60fa447496b22edad6c32fffde96de20262efba690892e4461e8.png"
+image_url = "https://picsum.photos/240"
 
-response = lotify.send(token, {message: "hello world", imageThumbnail: png, imageFullsize: png, stickerPackageId: 1, stickerId: 1})
+response = lotify.send(token,
+  message: "Hello lotify.",
+  imageThumbnail: image_url,
+  imageFullsize: image_url,
+  stickerPackageId: 1,
+  stickerId: 1
+)
 ```
 
 ### revoke access token
