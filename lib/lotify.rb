@@ -71,7 +71,7 @@ module Lotify
         state: state
       };
 
-      "#{self.bot_origin}oauth/authorize?#{URI.encode_www_form(data)}"
+      "#{self.bot_origin}/oauth/authorize?#{URI.encode_www_form(data)}"
     end
 
 
