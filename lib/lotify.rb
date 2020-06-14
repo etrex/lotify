@@ -2,7 +2,7 @@
 
 require "lotify/version"
 require "net/http"
-require "JSON"
+require "json"
 
 module Lotify
   class Error < StandardError; end
