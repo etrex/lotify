@@ -1,6 +1,6 @@
 # Lotify
 
-Lotify is a LINE Notify client SDK.
+Lotify is a [LINE Notify](https://notify-bot.line.me/doc/en/) client SDK.
 
 ## Installation
 
